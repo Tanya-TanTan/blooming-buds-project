@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blooming Buds</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <style>
+
+.gradient-background {
+  background: linear-gradient(300deg, #ffffff,#8aecd7, #ffb9f3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.navbar-brand {
+  color: rgb(209, 65, 209);
+}
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body rounded" aria-label="Eleventh navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand m-2" href="#">Blooming Buds</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample09">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Corporate Flowers</a></li>
+              <li><a class="dropdown-item" href="#">Gift a Subscription</a></li>
+              <li><a class="dropdown-item" href="#">Flower Care Guide</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+        <button type="button" class="btn btn-info m-2">
+          Log in
+          </button>
+    </div>
+  </nav>
+
+  <section id="title" class="gradient-background">
+    <div class="container col-xxl-10 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/flowervase.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Fresh blooms for you on the regular.</h1>
+          <p class="lead">Brighten up your home or office with our beautiful and fuss-free flower delivery service. All our bouquets are designed by highly skilled florists who create them with a variety of beautiful stems inspired by the changing seasons. 
+            </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-light btn-lg px-4 me-md-2">Subscribe</button>
+            <button type="button" class="btn btn-outline-dark btn-lg px-4">About</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom text-center">Why Choose Us?</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <img src="./SVGS/star.svg" height="30" alt="star">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-1 fs-4 text-body-emphasis">Premium Quality</h3>
+            <p>We only design our bouquets with good quality flowers. You will be introduced to different stems that are guaranteed to make an impact for a week or more.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-c">
+          <img src="./SVGS/hand-thumbs-up.svg" height="30" alt="thumbs-up">
+          <svg class="bi text-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-1 fs-4 text-body-">Flexibility</h3>
+            <p>Your subscription is fully flexible and can be tailored to meet your needs. You can change the frequency and delivery date of your bouqet or even pause at any point. Just log-in to your account and manage your subscription.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./SVGS/recycle.svg" height="30" alt="recycle">
+          <svg class="bi text-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-1 fs-4 text-body-emphasis ">Sustainabilty</h3>
+            <p>We use 100% recyclable packaging.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./SVGS/bag-heart.svg" height="30" alt="bag-heart">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-1 fs-4 text-body-emphasis">Newness Delivered</h3>
+            <p>Pick from our set styles or be surprised by our florists during every delivery.</p>
+          </div> 
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./SVGS/cart-plus.svg" height="30" alt="cart-plus-sign">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-1 fs-4 text-body-emphasis">Customizable Arrangements</h3>
+            <p>Contact us to get great deals on customizing a package as per your requirements. Minimum 5 deliveries per month.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <img src="./SVGS/lightbulb.svg" height="30" alt="lightbulb">
+          <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-1 fs-4 text-body-emphasis">Arrangement & Care Tips</h3>
+            <p>We deliver each bouquet with expert flower arrangement and care tips for a fuss-free experience.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial">
+    <div class="container mb-5">
+      <div class="text-center bg-body-tertiary">
+        <h2 class="text-body-emphasis">
+          "Great service and such a beautiful selection of flowers. I would highly recommend them."
+        </h2>
+        <p class="col-lg-8 mx-auto lead mb-5">Kate Knightley, London</p>
+      </div>   
+    </div>
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/techcrunch.png" alt="techcrunch" height="30">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/mashable.png" alt="mashable" height="30">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/bizinsider.png" alt="bizinsider" height="30">
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <img src="./images/tnw.png" alt="tnw" height="30">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<div class="container">
+  <section id="pricing">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center px-4 py-5">
+      <h1 class="display-4 fw-normal text-body-emphasis mb-2">Subscribe Now</h1>
+      <p class="fs-5 text-body-secondary">Each plan delivers premium quality flowers that will make your day. We also have a </p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Every Week</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$30</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Weekly Delivery</li>
+              <li>Premium stems</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-info">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Fortnightly</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$20</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Fortnightly Delivery</li>
+              <li>Premium stems</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-info">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Monthly</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$10</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Monthly Delivery</li>
+              <li>Premium stems</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-info">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-info">
+          <div class="card-header py-3 text-bg-info border-info">
+            <h4 class="my-0 fw-normal">Customize</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">TBD</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Minimum 5 /mo</li>
+              <li>Premium stems</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-info">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="footer" class="gradient-background">
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top mb-0">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <p class="text-body-secondary">© Blooming Buds</p>
+        </div>
+    
+        <div class="col mb-3">
+    
+        </div>
+    
+        <div class="col mb-3">
+
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Info</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Our Story</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Need Help?</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Where is my order?</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Delivery</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Plant care</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gifting</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
